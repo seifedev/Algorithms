@@ -27,11 +27,11 @@ int binarySearch(int table[], int endGoal, int left, int right) {
     return binarySearch(table, endGoal, left, mid - 1);
 }
 
-int main() {
-
-    int table[] = {12, 32, 51, 125, 968, 1032, 8532, 50001, 7812301, 91239123};
-
-    std::cout << binarySearch(table, 8532, 0, 9);
-    return 0;
-}
+//int main() {
+//
+//    int table[] = {12, 32, 51, 125, 968, 1032, 8532, 50001, 7812301, 91239123};
+//
+//    std::cout << binarySearch(table, 8532, 0, 9);
+//    return 0;
+//}
 

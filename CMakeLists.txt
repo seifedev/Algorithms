@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Algorithms binarySearch.cpp)
+add_executable(Algorithms binarySearch.cpp selectionSort.cpp selectionSort.h)
